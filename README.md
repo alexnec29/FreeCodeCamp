@@ -1,2 +1,2 @@
 # FreeCodeCamp
-All my projects made on FreeCodeCamp.org
+Here are all my miniprojects made on freecodecamp
