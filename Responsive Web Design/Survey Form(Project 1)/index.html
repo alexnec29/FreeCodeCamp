@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for completing the form</p>
+      <form id="survey-form">
+        <label id="name-label">
+          <p>Input for name</p>
+        </label>
+        <label id="email-label">
+          <p>Input for email</p>
+        </label>
+        <label id="number-label">
+          <p>Input for number</p>
+        </label>
+        <label for="name">
+          Name<input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </label>
+        <label for="email">
+          Email:<input type="email" id="email" placeholder="Enter your email" name="email" required>
+        </label>
+        <label for="number">
+          Number:<input type="number" id="number" name="number" min="0" max="120" placeholder="Enter a number">
+        </label>
+        <select id="dropdown">
+          <option>-Choose an option-</option>
+          <option>First option</option>
+          <option>Second option</option>
+        </select>
+        <label for="radio question">
+          Are you a variant 1 or variant 2?
+          <input type="radio" id="radio question" name="radio question" value="radio question">Variant 1
+          <input type="radio" id="radio question" name="radio question" value="radio question">Variant 2
+        </label>
+        <label for="checkbox">
+          <p>Checkbox1, checkbox2 or both?</p>
+          <input type="checkbox" value="checkbox">Checkbox 1
+          <input type="checkbox" value="checkbox">Checkbox 2
+        </label>
+        <label for="opinion">
+            <br>Write an opinion about survey
+            <br><textarea>Write your opinion</textarea>
+        </label>
+        <label for="submit">
+          <br><button id="submit">Submit</button>
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
