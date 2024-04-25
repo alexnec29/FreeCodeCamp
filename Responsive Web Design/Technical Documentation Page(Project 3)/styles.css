@@ -1,0 +1,35 @@
+@media (max-width:400px)
+{
+  body{
+    width:400px;
+  }
+}
+@media (min-width:400px)
+{
+  body{
+    width:500px;
+  }
+}
+body{
+  background-color: black;
+  color:white;
+}
+a:hover{
+  color:white;
+}
+a{
+  text-decoration:none;
+}
+nav{
+  height:100px;
+  min-width:300px;
+}
+p{
+  border:1px solid gray;
+}
+code{
+  font-weight:bold;
+  text-align:center;
+  margin:auto;
+  position:sticky;
+}
