@@ -1,0 +1,18 @@
+.project-tile{
+    width:200px;
+    height:200px;
+    background-color:orange;
+    display:flex;
+  
+  }
+  #navbar{
+    position:sticky;
+    top:0;
+  }
+  
+  @media (max-width:400px){
+    .project-tile{
+      width:100px;
+      height:100px;
+    }
+  }

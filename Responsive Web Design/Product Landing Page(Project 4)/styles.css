@@ -1,0 +1,21 @@
+#nav-bar{
+    position:fixed;
+    top:0;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  @media (max-width:400px){
+    #header-img{
+      height:50px;
+    }
+  }
+  
+  @media (min-width:400px){
+    #header-img{
+      height:100px;
+    }
+  }
